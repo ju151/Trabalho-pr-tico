@@ -1,2 +1,2 @@
-# Trabalho-pr-tico
+# Trabalho-pratico
 Trabalho da matéria engenharia de software
