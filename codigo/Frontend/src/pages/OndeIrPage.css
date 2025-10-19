@@ -1,0 +1,120 @@
+.onde-ir-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* --- Seção Header --- */
+  .oir-header {
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 2rem;
+  }
+  .oir-title-main {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .oir-title-sub {
+    font-size: 2rem;
+    color: #777;
+    margin-top: 0.5rem;
+    font-weight: 300;
+  }
+  .oir-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* --- Seção Formulário --- */
+  .oir-form {
+    /* O TriagemForm está centralizado pelo container pai */
+    width: 100%;
+    max-width: 500px; /* Limita a largura do formulário */
+    margin-bottom: 3rem;
+    border: 1px solid #eee;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .oir-form h2 { /* Estilizando o H2 de dentro do TriagemForm */
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  
+  /* --- Seção Info Cards --- */
+  .oir-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .oir-info-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  .oir-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Faz os cards quebrarem a linha em telas menores */
+  }
+  .oir-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 320px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+  }
+  .oir-card h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 0;
+  }
+  .oir-card ul {
+    list-style-type: '✓ '; /* Adiciona o 'check' */
+    padding-left: 1.2rem;
+    color: #555;
+    flex-grow: 1; /* Faz a lista crescer e empurrar o botão para baixo */
+  }
+  .oir-card li {
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+  }
+  .saiba-mais {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    margin-top: 1rem;
+    text-decoration: none; 
+    text-align: center; 
+    align-self: center;
+    display: inline-block; 
+  }
+  .saiba-mais.primary {
+    background-color: #000;
+    color: #fff;
+  }
+  .saiba-mais.secondary {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  .saiba-mais:hover {
+    opacity: 0.8;
+  }

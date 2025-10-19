@@ -1,0 +1,29 @@
+.vacina-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza tudo */
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza os textos */
+  }
+  
+  .title-main {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  
+  .title-sub {
+    font-size: 2rem;
+    color: #777;
+    margin-top: 0.5rem;
+    font-weight: 300; /* Deixa o "Consulte Aqui" mais leve */
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 1rem;
+    max-width: 400px; /* Limita a largura do texto */
+  }
