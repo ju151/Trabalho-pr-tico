@@ -1,0 +1,74 @@
+/* Conteúdo para Frontend/src/pages/HomePage.css */
+
+.home-container {
+    max-width: 900px;
+    margin: 2rem auto; /* Centraliza o conteúdo */
+    padding: 0 2rem 2rem 2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.7; /* Melhora a legibilidade */
+    color: #333;
+  }
+  
+  .home-hero {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 2rem;
+  }
+  
+  .home-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .home-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 300;
+  }
+  
+  .home-section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .home-section h2 {
+    font-size: 1.8rem;
+    color: #333; 
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .home-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-list {
+    padding-left: 20px;
+  }
+  
+  .home-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .home-how-to {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas */
+    gap: 1.5rem;
+  }
+  
+  .how-to-card {
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #fcfcfc;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+  
+  .how-to-card h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: #333;
+  }
