@@ -22,8 +22,8 @@ O backend deste projeto requer uma conexão com um banco de dados MongoDB.
     * Crie uma conta gratuita no [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
     * Crie um novo projeto e um "Cluster" (use o plano `M0 Free`).
     * Em **Security** > **Database Access**, crie um usuário e senha para o banco (ex: `user: admin`, `pass: 123456`).
-    * Em **Security** > **Network Access**, clique em "Add IP Address" e adicione seu IP atual (a opção "Allow Access from Anywhere" `0.0.0.0/0` também funciona, mas é menos segura).
-
+    * Em **Security** > **Network Access**, clique em "Add IP Address" e adicione seu IP atual.
+    * 
 2.  **Obtenha a String de Conexão:**
     * Na visão geral do seu Cluster, clique em **Connect** > **Drivers**.
     * Copie a **Connection String** (URL).
@@ -58,15 +58,12 @@ Para a aplicação funcionar, o Backend (servidor) e o Frontend (site) precisam 
     ```bash
     npm run seed
     ```
-    *(Este comando só precisa ser rodado uma vez. Ele irá limpar e pré-popular o banco de dados com vacinas de exemplo)*
+
 
 4.  Inicie o servidor principal:
     ```bash
     npm start
     ```
-5.  Se tudo der certo, você verá as mensagens:
-    * `Conectado ao MongoDB com sucesso!`
-    * `Servidor rodando na porta 5000`
 
 ### Terminal 2: Rodando o Frontend (Site)
 
@@ -91,8 +88,8 @@ Para a aplicação funcionar, o Backend (servidor) e o Frontend (site) precisam 
 1.  Com os dois terminais rodando, abra seu navegador e acesse:
     **`http://localhost:5173/`**
 
-2.  O site estará no ar. Você pode navegar pelas páginas, mas para usar as funcionalidades de perfil, você deve primeiro:
-    * Clicar em **"Cadastrar"** para criar um novo usuário (isso salvará no seu banco MongoDB).
+2.  Você deve primeiro:
+    * Clicar em **"Cadastrar"** para criar um novo usuário 
     * Clicar em **"Login"** para entrar.
     * Acessar seu **"Perfil"** para preencher os dados e ver as vacinas.
     * Acessar a página **"Admin"** para cadastrar novas vacinas e regras.
